@@ -1,0 +1,33 @@
+<div class="card w-75 border-primary">
+    <div class="card-body">
+        <form [formGroup]="myFormValidation">
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input formControlName="name" type="text" class="form-control" id="exampleInputName">
+            </div>
+            <div class="alert alert-success" *ngIf="validName">Valid Name</div>
+            <div class="alert alert-danger" *ngIf="!validName">Invalid Name</div>
+
+
+            <div class="mb-3">
+                <label for="exampleInputAge" class="form-label">Age</label>
+                <input formControlName="age" type="number" class="form-control" id="exampleInputAge">
+            </div>
+            <div class="alert alert-success" *ngIf="validAge">Valid Age</div>
+            <div class="alert alert-danger" *ngIf="!validAge">Invalid Age</div>
+
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="alert alert-success" *ngIf="validEmail">Valid Email</div>
+            <div class="alert alert-danger" *ngIf="!validEmail">Invalid Email</div>
+
+
+            <button type="submit" (click)="checkValues()" class="btn btn-primary">Add</button>
+        </form>
+    </div>
+</div>

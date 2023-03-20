@@ -1,0 +1,10 @@
+.active {
+  color: white !important;
+  background-color: rgb(12, 84, 219);
+  padding: 8px;
+  margin: 0 !important;
+}
+.nav-color {
+ font-weight: bold;
+  background-color: rgb(215, 227, 250);
+}
