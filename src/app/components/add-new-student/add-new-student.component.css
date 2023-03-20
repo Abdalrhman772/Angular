@@ -1,0 +1,25 @@
+.form-control:focus {
+  border-color: aqua;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px aqua;
+}
+
+.form-control {
+  border-color: aqua;
+}
+
+.input-colour {
+  color: greenyellow;
+}
+
+/* label{
+      color: yellowgreen !important;
+  } */
+
+button {
+  /* color:  rgb(4, 27, 54) !important; */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px aqua;
+}
+button:hover {
+  /* color:  rgb(4, 27, 54) !important; */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 15px aqua;
+}

@@ -1,0 +1,25 @@
+<div
+    class="container w-25 position-absolute top-50 start-50 translate-middle border border-2 border-info p-4 rounded-3">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputName" class="form-label fs-5 text-warning">Student Name : </label>
+            <input #name type="text" class="form-control input-colour fs-5 bg-transparent" value="{{oldStudent.name}}"
+                id="exampleInputName" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputAge" class="form-label fs-5 text-warning">Student Age : </label>
+            <input #age type="number" class="form-control input-colour fs-5 bg-transparent" value="{{oldStudent.age}}"
+                id="exampleInputAge" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputTrack" class="form-label fs-5 text-warning">Student Track : </label>
+            <input #track type="text" class="form-control input-colour fs-5 bg-transparent" value="{{oldStudent.track}}"
+                id="exampleInputTrack" required>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto"><button type="submit"
+                class="btn btn-transparent text-info fs-5 fw-bold form-btn" routerLink="/"
+                (click)="edit(name.value, age.value, track.value)">Update</button>
+        </div>
+    </form>
+</div>

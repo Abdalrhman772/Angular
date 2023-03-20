@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark my-nav">
+    <div class="container-fluid d-flex justify-content-evenly">
+        <div class="navbar-nav">
+            <a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" class="navbar-brand fs-4 fw-bold home-btn"
+                aria-current="page" routerLink="/">Home</a>
+        </div>
+        <div class="navbar-nav">
+            <a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" class="btn add-btn fw-bold"
+                aria-current="page" routerLink="/create">Add New Student <i class="bi bi-plus-lg fw-bold"></i>
+            </a>
+        </div>
+    </div>
+</nav>

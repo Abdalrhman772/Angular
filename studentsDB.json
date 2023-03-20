@@ -1,0 +1,16 @@
+{
+  "students": [
+    {
+      "name": "Mohamed Sadek",
+      "age": "23",
+      "track": ".NET",
+      "id": 1
+    },
+    {
+      "name": "Abdalrhman Mahmoud",
+      "age": "23",
+      "track": "Angular",
+      "id": 3
+    }
+  ]
+}

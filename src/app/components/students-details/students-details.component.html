@@ -1,0 +1,19 @@
+<div class="container w-50 position-absolute top-50 start-50 translate-middle">
+    <div class="card bg-transparent border border-2 border-info">
+        <div class="card-body" *ngIf="student">
+            <div class="custom-div fs-4">
+                <p>Student ID :</p>
+                <p class="text-warning fs-3 ms-5">{{student.id}}</p>
+                <p>Student Name :</p>
+                <p class="text-warning ms-5 fs-3">{{student.name}}</p>
+                <p>Student Age :</p>
+                <p class="text-warning ms-5 fs-3">{{student.age}}</p>
+                <p>Student Track :</p>
+                <p class="text-warning ms-5 fs-3">{{student.track}}</p>
+            </div>
+            <!-- <div class="text-end">
+                <img src="assets/images/cap.png" alt="cap" width="30%">
+            </div> -->
+        </div>
+    </div>
+</div>

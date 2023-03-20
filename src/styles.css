@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+  text-align: center;
+  background-color: rgb(4, 27, 54) !important;
+}
+
+.my-nav {
+  background-color:  aqua;
+}
+
+h1 {
+  color: blueviolet;
+  font-weight: bold;
+}
+
